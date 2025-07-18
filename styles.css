@@ -69,6 +69,28 @@ body {
   color: #0f2027;
 }
 
+/* Botón especial para Llamanos */
+.cta-llamanos {
+  display: inline-block;
+  margin: 0.7rem 0 0.2rem 0;
+  padding: 0.7rem 2.2rem;
+  background: linear-gradient(90deg,#11998e,#38ef7d);
+  color: #fff;
+  font-size: 1.25rem;
+  font-weight: 700;
+  border-radius: 2rem;
+  box-shadow: 0 2px 12px rgba(44,83,100,0.10);
+  text-decoration: none;
+  letter-spacing: 0.5px;
+  transition: background 0.2s, color 0.2s, box-shadow 0.2s, transform 0.2s;
+}
+.cta-llamanos:hover {
+  background: linear-gradient(90deg,#38ef7d,#11998e);
+  color: #fff;
+  box-shadow: 0 4px 24px rgba(44,83,100,0.18);
+  transform: translateY(-2px) scale(1.04);
+}
+
 .servicios {
   padding: 4rem 5vw 2rem 5vw;
   background: #fff;
