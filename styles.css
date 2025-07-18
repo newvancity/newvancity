@@ -30,6 +30,8 @@ body {
   list-style: none;
   display: flex;
   gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .nav-links a {
   color: #fff;
@@ -253,5 +255,16 @@ body {
   }
   .navbar {
     padding: 1rem 2vw 0 2vw;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  .nav-links {
+    gap: 0.3rem;
+    font-size: 1rem;
+    flex-wrap: nowrap;
+  }
+  .nav-links a {
+    font-size: 1rem;
+    padding: 0.2rem 0.3rem;
   }
 }
